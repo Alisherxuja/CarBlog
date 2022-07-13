@@ -159,6 +159,7 @@ ul {
     line-height: 30px;
     width: 265px;
     margin: 0;
+    padding-right: 75px;
 }
 
 .cardd {
@@ -167,6 +168,12 @@ ul {
     flex-direction: column;
     justify-content: space-between;
     transition: all .2s;
+  
+}
+
+.right-car.cardd {
+    width: 370px;
+    height: 265px;
 }
 
 .cardd:hover {
